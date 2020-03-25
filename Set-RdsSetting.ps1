@@ -58,7 +58,7 @@ Foreach ($user in $Users) {
     Try {
         $UserDN = $User.DistinguishedName
         $TheUser = [ADSI]"LDAP://$UserDN"
-        $TheUser.SamAccountName #to check the account
+        $TheUser.SamAccountName
         $TheUser.psbase.invokeSet("allowLogon", 1)
         $TheUser.setinfo()
         $SuccessCount++
