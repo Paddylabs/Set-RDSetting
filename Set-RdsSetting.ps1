@@ -2,11 +2,15 @@
 
   .SYNOPSIS
 
-  Gets users from a CSV File and clears the checkbox of the "Deny this user permissions to log on to Remote Desktop Session Host server" setting.
+  Gets users from a CSV File and clears the checkbox of the "Deny this user permissions
+  to log on to Remote Desktop Session Host server" setting.
 
   .DESCRIPTION
 
-  Gets users from a CSV File generated from the RDPSetting Script and clears the checkbox of the "Deny this user permissions to log on to Remote Desktop Session Host server" setting.
+  Gets users from a CSV File generated from the RDPSetting Script and clears the 
+  checkbox of the "Deny this user permissions to log on to Remote Desktop Session 
+  Host server" setting.
+  
   1 means allowed (Box is cleared)
   0 Means Deny (Box is Checked)
 
